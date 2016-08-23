@@ -1,0 +1,78 @@
+!!! 5
+extends layout
+
+block content
+  div.container#layout
+    div
+      header#head
+        title Express
+        script(src="/javascripts/metroautoadv.js")
+        div.header-text-section#shaded
+          div.container
+            div.logo
+              p HomesBrewery.com
+    nav(img src="/images/w.png")#mainnav1
+      div.container
+        ul.nav.nav-pills
+          li
+            a#home Home
+          li
+            a#cervezas Cervezas
+          li
+            a#growlersPartyKegs Growlers & Party Kegs
+          li
+            a#contact Contact
+
+    a(name='home')
+    div.container.adv-content-home
+      h1 Holmes Brewery
+      p Holmes Brewery started by two home brewers, Jeronimo & Matt. Jeronimo lives in Mendoza and Matt lives in the States. They brewed together in both the States and Mendoza and decided to start a brewery. Both sharing the love for micro brewed beers, they believed that people in Mendoza would really enjoy drinking their beer.
+
+      P Their goal is to start slowly, quality over quantity. They started with a pale ale, and are planning on brewing a double IPA by year end.
+
+    div#adv-background
+      div.header-text-section#shaded-advertisers.slide
+        div.logo
+          p Cervezas
+    a(name='cervezas')
+    div.container.adv-content-cervezas
+      h1 Holmes Pale Ale
+      p Holmes first beer. It is somewhere between an American pale ale and an India Pale Ale brewed with European malts and American hops. Holmes was introduced to Mendoza in 2016, and is currently on tap at Hanger 52.
+
+      P Holmes Pale Ale delivers a hoppy nose and assertive-but-balanced flavors of pale malts and citrusy floral hops from start to finish. It is 6.5% alcohol by volume, and features 65 International Bittering Units (IBUs).
+
+    div#adv-background
+      div.header-text-section#shaded-drivers.slide
+        div.logo
+          p Growlers & Party Kegs
+    a(name='growlersPartyKegs')
+    div.container.adv-content-growlers
+      h1 Purchase Growlers & Party Kegs
+      p We sell 2 Liter Growlers of your favorite Holmes Beer. Pick up a freshly tapped growler to enjoy with dinner or friends or both.
+
+      p We also sell party kegs. These kegs hold 19 liters of beer and come with a CO2 cannister and tap. This is a great way to share your favorite Holmes beer while hosting a party or asado with your friends.
+    div#adv-background
+      div.header-text-section#shaded-contact.slide
+        div.logo
+          p Contact Us
+    a(name='contact')
+    div.container.adv-content-contact
+      div
+        p Phone: +542616149877
+      div
+        p Email: <a href="mailto:info@holmesbrewery.com" > Holmes Brewery</a>
+      div
+        a(href='https://www.facebook.com/Holmesbrewery/')
+          img(src='/images/Social-Network-Facebook.ico')#facebookPage2
+      div
+        a(href='https://twitter.com/Holmes_Brewery')
+          img(src='/images/twitter-icon1.png')#facebookPage2
+
+
+
+
+
+
+
+
+
